@@ -10,7 +10,5 @@ module.exports = defineConfig({
     video: "retain-on-failure-and-retries",
     trace: "on-first-retry",
   },
-  use: {
-    storageState: "auth/user.json",
-  },
+
 });
